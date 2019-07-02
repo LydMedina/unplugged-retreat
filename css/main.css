@@ -403,6 +403,8 @@ aside {
 	}
 	
 	/* ----- Hero Area -----*/
+	
+	
 	/* ----- Aside -----*/
 	aside .content-wrapper {
 	margin: 50px 0;
@@ -507,9 +509,69 @@ aside {
 @media only screen and (min-width: 1200px){
   /* Desktop style here */
 	.content-wrapper {
-		width: 960px;
-		margin: 100px 0;
+		max-width: 960px;	
+		margin: 50px 0;
+	}	
+	
+	/* ----- Hero Area -----*/
+	
+	.hero-area h1 {
+		width: 40%;
 	}
+	
+	/* ----- Aside -----*/
+	
+	aside .content-wrapper {		
+	justify-content: space-around;			
+	}
+	
+	aside .content-wrapper .form-description,
+	aside .content-wrapper .form {
+		width: 23%;		
+	}
+	
+	/* ----- Features -----*/	
+	
+	.features h2 {
+		width: 50%; 		
+	}
+	
+	.features article {
+		flex-basis: 33%;
+	}
+	
+	
+	/* ----- Reviews -----*/	
+	
+	.reviews article div {
+		width: 40%;
+	}
+	
+
+/* ===========================
+  		ABOUT PAGE
+   ======================== */
+	.mission h2,
+ 	 .contact-section .content-wrapper h2 {
+        width: 40%;
+    }
+   
+    .contact-section .content-wrapper h2 {
+        margin-bottom: 20px;
+    }
+   
+
+/* ===========================
+  		FAQ PAGE
+   ======================== */
+
+   .faq-content {
+        flex-basis: 35%;
+    }
+ 
+    .faq h2 {
+        width: 100%;
+    }
 }
 
 /* ==========================================================================
