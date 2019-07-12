@@ -98,8 +98,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+ 	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;	
+}
+ 
+ul, 
+ol {
+ 
+}
+ 
+a {
+	color: #e2e3ed;
+    text-decoration: none;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #e2e3ed;
+	font-weight: 400;	
+	font-size: 2em;
+}
+ 
+h2 {
+ 	font-family: 'Poppins', sans-serif;
+	color: #e2e3ed;
+	font-size: 2em; 
+	font-weight: 400;
+}
+ 
+h3, 
+h4 {
+ 	font-family: 'Poppins', sans-serif;
+	color: #e2e3ed; 
+	font-weight: 400;
+}
+ 
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #e2e3ed;	
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-size: 1.125em; 
+}
+ 
 .content-wrapper {
-	width: 90%;
+ 
+}
+.content-wrapper {
+	width: 90%;	
 	margin: 50px 0;
 }
 
@@ -116,6 +178,7 @@ footer {
 
 header {
 	padding: 15px 0;
+	background-color: #202322;
 }
 
 header .content-wrapper {
@@ -146,11 +209,16 @@ header nav ul {
 	width: 100%;	
 }
 
+ul {
+	padding-left: 0px; 
+}
+
 
 /* ------- Footer Style -------*/
 
 footer {
 	flex-direction: column;
+	background-color: #202322;
 }
 
 footer p {
@@ -202,6 +270,7 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color: #527158;
 }
 
 /* ----- Features -----*/
@@ -213,7 +282,7 @@ aside {
 }
 
 .features h2 {
-	margin-bottom: 60px;
+	margin-bottom: 60px;	 	
 }
 
 .features p {
@@ -238,6 +307,7 @@ aside {
 	display: flex;
 	justify-content: center;	
 	flex-flow: row wrap;
+	background-color: #2a423a; 
 }
 
 .reviews h3 {
@@ -252,6 +322,7 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color: #527158;
 }
 
 /* ----- Contact -----*/
@@ -261,6 +332,7 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color: #2a423a;
 }
 
 /* ----- FAQ -----*/
@@ -270,6 +342,7 @@ aside {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -516,8 +589,9 @@ aside {
 	/* ----- Hero Area -----*/
 	
 	.hero-area h1 {
-		width: 40%;
+		width: 45%;		
 	}
+		
 	
 	/* ----- Aside -----*/
 	
@@ -527,13 +601,13 @@ aside {
 	
 	aside .content-wrapper .form-description,
 	aside .content-wrapper .form {
-		width: 23%;		
+		width: 27%;		
 	}
 	
 	/* ----- Features -----*/	
 	
 	.features h2 {
-		width: 50%; 		
+		width: 100%;		
 	}
 	
 	.features article {
@@ -553,12 +627,21 @@ aside {
    ======================== */
 	.mission h2,
  	 .contact-section .content-wrapper h2 {
-        width: 40%;
+        width: 90%;
+		font-size: 3em; 
     }
    
     .contact-section .content-wrapper h2 {
         margin-bottom: 20px;
     }
+	
+		.contact-section h1 {
+		font-size: 3em;
+	}
+	
+	.contact-section h4 {
+		font-size: 2em;
+	}
    
 
 /* ===========================
@@ -566,11 +649,12 @@ aside {
    ======================== */
 
    .faq-content {
-        flex-basis: 35%;
+        flex-basis: 40%;
     }
  
     .faq h2 {
         width: 100%;
+		font-size: 3em;
     }
 }
 
