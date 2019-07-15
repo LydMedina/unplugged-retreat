@@ -636,6 +636,11 @@ input[type=button] {
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
+	
+	.map figure {   
+    padding-bottom: 50%;     
+} 
+
  
     .contact-content {
         display: flex;
@@ -727,6 +732,10 @@ input[type=button] {
 	.contact-section h4 {
 		font-size: 2em;
 	}
+	
+	.map figure {   
+    padding-bottom: 40%;     
+} 
    
 
 /* ===========================
