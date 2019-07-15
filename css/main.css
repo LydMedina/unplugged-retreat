@@ -259,7 +259,9 @@ footer .copyright {
 
 /* ------- Mobile Style -------*/
 
-
+/* ==========================
+  		HOME PAGE
+   ======================== */
 
 /* ----- Hero Area -----*/
 
@@ -355,6 +357,29 @@ input[type=button] {
 	margin-bottom: 20px 0;
 }
 
+/* ===========================
+  		FAQ PAGE
+   ======================== */
+
+.faq {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	background-color: #527158;
+}
+
+.faq .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-flow: row wrap;
+}
+
+/* ===========================
+  		ABOUT PAGE
+   ======================== */
+
 /* ----- Mission -----*/
 
 .mission {
@@ -363,6 +388,24 @@ input[type=button] {
 	align-items: center;
 	flex-flow: row wrap;
 	background-color: #527158;
+}
+
+/* ----- Map -----*/
+
+.map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 80%; 
+    overflow: hidden;
+    position: relative;
+}
+ 
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
 }
 
 /* ----- Contact -----*/
@@ -379,22 +422,9 @@ input[type=button] {
 	font-style: normal;
 }
 
-/* ----- FAQ -----*/
 
-.faq {
-	display: flex; 
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-	background-color: #527158;
-}
 
-.faq .content-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	flex-flow: row wrap;
-}
+
 
 
 
