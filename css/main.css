@@ -156,10 +156,7 @@ figure {
 address {
  font-size: 1.125em; 
 }
- 
-.content-wrapper {
- 
-}
+
 .content-wrapper {
 	width: 90%;	
 	margin: 50px 0;
@@ -223,6 +220,7 @@ footer {
 
 footer p {
 	margin: 0;
+	text-align: center; 
 }
 
 footer .content-wrapper {
@@ -271,6 +269,33 @@ aside {
 	align-items: center;
 	flex-flow: row wrap;
 	background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  	box-sizing: border-box;
+  	width: 100%;
+  	color: #9d9ea4;
+  	font-style: italic;
+	padding: 20px 10px;
+	background-color: #e1e2ea;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ----- Features -----*/
@@ -333,6 +358,10 @@ aside {
 	align-items: center;
 	flex-flow: row wrap;
 	background-color: #2a423a;
+}
+
+.contact-content h4 {
+	font-style: normal;
 }
 
 /* ----- FAQ -----*/
@@ -583,13 +612,14 @@ aside {
   /* Desktop style here */
 	.content-wrapper {
 		max-width: 960px;	
-		margin: 50px 0;
+		margin: 50px 0;		
 	}	
 	
 	/* ----- Hero Area -----*/
 	
 	.hero-area h1 {
-		width: 45%;		
+		width: 75%;	
+		font-size: 3.750em; 
 	}
 		
 	
@@ -607,7 +637,7 @@ aside {
 	/* ----- Features -----*/	
 	
 	.features h2 {
-		width: 100%;		
+		width: 80%;		
 	}
 	
 	.features article {
